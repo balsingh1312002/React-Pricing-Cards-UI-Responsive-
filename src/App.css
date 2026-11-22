@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #1e63d5, #4f8df5);
+    height: 100vh;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    border: 1px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    gap: 10px;
+    padding: 15px;
+    
+}
+.card ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn{
+    background: linear-gradient(to right, #1e63d5, #4f8df5);
+    height: 30px;
+    width: 200px;
+    font-size: 15px;
+    border:none;
+    border-radius: 10px;
+}
+h4{
+    color: grey;
+}
+h2{
+    font-size: 25px;
+}
+.cross{
+  color: gray;
+}
+@media(max-width:440px){
+    .container{
+        height: 100%;
+
+    }
+}
